@@ -14,6 +14,8 @@ $(document).ready(function(){
         $('.condition').html(data.weather[0].main);
         $('.desc').html(data.weather[0].description);
         $('.temp').html(`${data.main.temp}°C`);
+        $('.lon').html(`Lon ${data.coord.lon}°`);
+        $('.lat').html(`Lat ${data.coord.lat}°`);
         
 
     })

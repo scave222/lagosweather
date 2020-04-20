@@ -2,6 +2,7 @@ body {background-color:aqua;
     background: url("weather.jpg") no-repeat center center fixed;
     background-size: cover;
   }
+  .font{font:italic small-caps bold 20px/2 cursive;}
   
   .sunny{
     animation-iteration-count: infinite;
